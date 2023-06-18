@@ -1,3 +1,5 @@
 export const Contact = () => {
-    return <h1>Hello world</h1>
+    return <div>
+        <a href="mailto:email@example.com">Contact me</a>
+    </div>
 }
