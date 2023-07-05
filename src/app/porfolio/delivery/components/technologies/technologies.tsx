@@ -1,7 +1,9 @@
 import styles from './technologies.module.css'
 import Image from 'next/image'
 
-const TECHNOLOGIES: { name: string; image: string }[] = [
+type Technologies = { name: string; image: string }
+
+const TECHNOLOGIES: Technologies[] = [
   {
     name: 'React',
     image: '/icons/react-js-icon.svg'
@@ -62,7 +64,7 @@ export const Technologies = () => {
       <ul className={styles.list}>
         {TECHNOLOGIES.map((item, index) => (
           <li className={styles.item} key={index}>
-            <Image src={item.image} alt={item.name} width={100} height={100} priority />
+            <Image src={item.image} alt={item.name} width={50} height={50} priority />
             <span>{item.name}</span>
           </li>
         ))}
