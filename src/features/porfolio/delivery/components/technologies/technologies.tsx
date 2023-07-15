@@ -1,5 +1,6 @@
 import styles from './technologies.module.css'
 import Image from 'next/image'
+import { useTranslation } from 'next-i18next'
 
 type Technologies = { name: string; image: string }
 
@@ -58,9 +59,11 @@ const TECHNOLOGIES: Technologies[] = [
   }
 ]
 export const Technologies = () => {
+  const { t } = useTranslation('common')
+
   return (
     <>
-      <h2>Technologies i have used</h2>
+      <h2>{t('usedTechnologies')}</h2>
       <ul className={styles.list}>
         {TECHNOLOGIES.map((item, index) => (
           <li className={styles.item} key={index}>
