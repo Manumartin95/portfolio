@@ -62,7 +62,7 @@ export const Technologies = () => {
   const { t } = useTranslation('common')
 
   return (
-    <>
+    <div className={styles.wrapper}>
       <h2>{t('usedTechnologies')}</h2>
       <ul className={styles.list}>
         {TECHNOLOGIES.map((item, index) => (
@@ -72,6 +72,6 @@ export const Technologies = () => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   )
 }

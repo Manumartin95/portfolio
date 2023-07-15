@@ -6,11 +6,9 @@ import { Technologies } from '@/features/porfolio/delivery/components/technologi
 export default function Home() {
   return (
     <div className={styles.main}>
-      <div className={styles.wrapper}>
-        <About></About>
-        <Technologies></Technologies>
-        {/*<Contact></Contact>*/}
-      </div>
+      <About></About>
+      <Technologies></Technologies>
+      {/*<Contact></Contact>*/}
     </div>
   )
 }

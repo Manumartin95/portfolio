@@ -1,13 +1,13 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--l) 0;
+  gap: var(--xs);
 }
 
-
 .bottom {
-    display: flex;
-    align-items: center;
-    gap: var(--xxs);
+  display: flex;
+  align-items: center;
+  gap: var(--xxs);
 }

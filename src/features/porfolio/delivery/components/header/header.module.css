@@ -1,11 +1,7 @@
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 0;
-}
-
-.title {
-    font-size: 20px;
-    font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--l) 0;
+  max-width: var(--max-width);
 }

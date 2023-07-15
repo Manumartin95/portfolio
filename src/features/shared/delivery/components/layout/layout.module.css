@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+}
+
+.main {
+  max-width: var(--max-width);
+}
