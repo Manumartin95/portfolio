@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: var(--xs);
 }
 
 
 .bottom {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: var(--xxs);
 }

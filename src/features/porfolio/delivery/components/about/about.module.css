@@ -1,10 +1,10 @@
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4rem;
+    gap: var(--xxl);
 }
 
-.image{
-    border: 3px solid #ffff;
+.image {
+    border: var(--xxs) solid #ffff;
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 6rem;
+    padding: 0 var(--xxl);
     min-height: 100vh;
 }
 
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: var(--xl);
     font-size: 0.85rem;
     width: 100%;
     max-width: var(--max-width);
