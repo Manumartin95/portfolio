@@ -63,7 +63,7 @@ export const Technologies = () => {
 
   return (
     <div className={styles.wrapper}>
-      <h2>{t('usedTechnologies')}</h2>
+      <h2 className={styles.title}>{t('usedTechnologies')}</h2>
       <ul className={styles.list}>
         {TECHNOLOGIES.map((item, index) => (
           <li className={styles.item} key={index}>

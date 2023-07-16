@@ -4,6 +4,7 @@ import { Layout } from '@/features/shared/delivery/components/layout/layout'
 import '../styles/reset.css'
 import '../styles/theme.css'
 import '../styles/globals.css'
+import '../styles/typography.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
