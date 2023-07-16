@@ -1,0 +1,5 @@
+.icon {
+  width: 1rem;
+  display: grid;
+  place-items: center;
+}
