@@ -1,9 +1,14 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useTheme } from '@/features/shared/delivery/hooks/use-theme/use-theme'
+import styles from './theme-selector.module.css'
+import { Icon } from '@/features/shared/delivery/components/icon/icon'
+import { Moon } from '@/features/shared/delivery/components/icon/icons/moon'
+import { Sun } from '@/features/shared/delivery/components/icon/icons/sun'
+import { bind } from '@/styles/bind'
 
+const cx = bind(styles)
 export const ThemeSelector = () => {
-  const customTheme = useTheme()
-  const [theme, setTheme] = useState(customTheme)
+  const { theme, setTheme } = useTheme()
   const toggleTheme = () => {
     if (theme === 'light') {
       setTheme('dark')
@@ -17,7 +22,13 @@ export const ThemeSelector = () => {
 
   return (
     <div>
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      <button className={cx('selector')} onClick={toggleTheme}>
+        {theme === 'light' ? (
+          <Icon icon={<Moon></Moon>} className={cx('moon')} />
+        ) : (
+          <Icon icon={<Sun></Sun>} className={cx('sun')} />
+        )}
+      </button>
     </div>
   )
 }

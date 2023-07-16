@@ -5,3 +5,9 @@
   padding: var(--l) 0;
   max-width: var(--max-width);
 }
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: var(--s);
+}

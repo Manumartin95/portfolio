@@ -1,0 +1,19 @@
+.selector {
+  background-color: transparent;
+  border: none;
+}
+
+.sun,
+.moon {
+  width: var(--l);
+  stroke-width: var(--s);
+  filter: drop-shadow(0px 0px 4px blue);
+}
+
+.sun {
+  stroke: red;
+}
+
+.moon {
+  stroke: yellow;
+}

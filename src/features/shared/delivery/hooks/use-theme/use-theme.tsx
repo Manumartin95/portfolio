@@ -8,5 +8,5 @@ export const useTheme = () => {
       setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
   }, [])
 
-  return theme
+  return { theme, setTheme }
 }
