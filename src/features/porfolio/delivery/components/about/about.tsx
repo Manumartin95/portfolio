@@ -16,7 +16,6 @@ export const About = () => {
           className={styles.image}
           priority
         />
-        <h3>Full name</h3>
         <p>{t('aboutMe')}</p>
       </div>
     </>

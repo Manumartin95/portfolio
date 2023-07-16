@@ -5,8 +5,7 @@
 
 .sun,
 .moon {
-  width: var(--l);
-  stroke-width: var(--s);
+  width: var(--xl);
 }
 
 .sun {
@@ -17,5 +16,6 @@
 
 .moon {
   stroke: #96aec5;
-  filter: drop-shadow(0px 0px var(--xxs) #daeaf9);
+  fill: #96aec5;
+  filter: drop-shadow(0px 0px var(--xxs) #96aec5);
 }
