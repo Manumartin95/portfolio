@@ -7,13 +7,15 @@
 .moon {
   width: var(--l);
   stroke-width: var(--s);
-  filter: drop-shadow(0px 0px 4px blue);
 }
 
 .sun {
-  stroke: red;
+  stroke: #f2f27a;
+  fill: #f2f27a;
+  filter: drop-shadow(0px 0px var(--xxs) #f2f27a);
 }
 
 .moon {
-  stroke: yellow;
+  stroke: #96aec5;
+  filter: drop-shadow(0px 0px var(--xxs) #daeaf9);
 }
