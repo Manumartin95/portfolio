@@ -24,9 +24,9 @@ export const ThemeSelector = () => {
     <div>
       <button className={cx('selector')} onClick={toggleTheme}>
         {theme === 'light' ? (
-          <Icon icon={<Moon></Moon>} className={cx('moon')} />
+          <Icon icon={<Moon />} className={cx('moon')} />
         ) : (
-          <Icon icon={<Sun></Sun>} className={cx('sun')} />
+          <Icon icon={<Sun />} className={cx('sun')} />
         )}
       </button>
     </div>

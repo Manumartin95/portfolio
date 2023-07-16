@@ -1,0 +1,10 @@
+.icon-list {
+  display: flex;
+  align-items: center;
+  gap: var(--xs);
+}
+
+.icon {
+  fill: var(--foreground-color);
+  width: var(--l);
+}
