@@ -1,14 +1,5 @@
 :root {
   --max-width: 1100px;
-  --foreground-color: #efefef;
-  --background-color: #2b252a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-color: #efefef;
-    --background-color: #2b252a;
-  }
 }
 
 * {
